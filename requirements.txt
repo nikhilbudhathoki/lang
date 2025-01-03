@@ -1,4 +1,4 @@
-python-docx==0.2.4
+python-docx
 python-dotenv==0.15.0
 streamlit==1.16.0
 
