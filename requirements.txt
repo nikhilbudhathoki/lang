@@ -1,15 +1,15 @@
 
-python-docx
-python_dotenv==0.15.0
-streamlit==1.16.0
+python-docx==1.1.2
+python_dotenv==1.0.1
+streamlit==1.41.1
 
-xlsxwriter
-Pillow>=10.0.0
-numpy==1.24.4
-pandas==1.5.3    # Streamlit for building the app
-requests==2.31.0       # HTTP requests library
+xlsxwriter==1.41.1
+Pillow==11.0.0
+numpy==1.26.4
+pandas==2.2.3    # Streamlit for building the app
+requests==2.32.3      # HTTP requests library
 PyPDF2==3.0.1          # PDF parsing
-langdetect==1.0.9      # Language detection
-tenacity==8.2.3        # Retry logic  # Environment variable handling
+langdetect==1.0.9     # Language detection
+tenacity==9.0.0      # Retry logic  # Environment variable handling
 
 
