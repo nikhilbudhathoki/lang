@@ -12,6 +12,6 @@ PyPDF2==3.0.1          # PDF parsing
 langdetect==1.0.9      # Language detection
 tenacity==8.2.3        # Retry logic  # Environment variable handling
 
-zlib>=1.2.13
+
 libjpeg-dev
 
