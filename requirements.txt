@@ -13,5 +13,3 @@ langdetect==1.0.9      # Language detection
 tenacity==8.2.3        # Retry logic  # Environment variable handling
 
 
-libjpeg-dev
-
