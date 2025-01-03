@@ -9,4 +9,3 @@ langdetect==1.0.9      # Language detection
 tenacity==8.2.3        # Retry logic
 python-dotenv==1.0.0   # Environment variable handling
 pillow==8.0.0
-zlib
