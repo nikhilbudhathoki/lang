@@ -11,7 +11,7 @@ import math
 from dataclasses import dataclass
 import pandas as pd
 from datetime import datetime
-
+import os 
 # Predefined API keys
 API_KEYS = [os.getenv(f"API_KEY_{i}") for i in range(0, 11)]
 
