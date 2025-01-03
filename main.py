@@ -13,16 +13,7 @@ import pandas as pd
 from datetime import datetime
 
 # Predefined API keys
-API_KEYS = [
-    "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",
-    "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",
-    "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",
-    "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",
-    "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",
-    "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",
-    "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",
-    "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"
-]
+API_KEYS = [os.getenv(f"API_KEY_{i}") for i in range(0, 11)]
 
 MODEL_NAME = "llama-3.3-70b-versatile"
 TRANSLATION_URL = "https://api.groq.com/openai/v1/chat/completions"
